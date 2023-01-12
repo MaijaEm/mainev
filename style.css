@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(250, 244, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+}
+
+h1{
+    border-bottom: 20px;
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+font-size: 15px;
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+img{
+    border: 1px solid red;
+    padding: 10px;
+    border-image-width: 250px;
+    opacity: 0.5;
+}
