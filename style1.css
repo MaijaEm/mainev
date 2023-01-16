@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+  }
+
+header, footer {
+    background: purple;
+    height: 100px;
+  }
+
+  header {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    margin-top: 5px;
+  }
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+
+h2 {
+    margin: 10px;
+    
+}
+
+article {
+    padding: 10px;
+    margin: 5px;
+    background: aqua;
+
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  article {
+    flex: 1;
+  }
+
+  article:nth-of-type(3) {
+    flex: 2;
+  }
+  
+
+.sideBar {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+  } 
